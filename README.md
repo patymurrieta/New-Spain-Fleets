@@ -1,4 +1,4 @@
-## <img width="1300" height="1573" alt="logo_NSF_english" src="https://github.com/user-attachments/assets/a5b06586-cb7a-4b14-8d00-e32f844d9100" /># New Spain Fleets
+## <img width="80" height="97" alt="logo_NSF_english" src="https://github.com/user-attachments/assets/a5b06586-cb7a-4b14-8d00-e32f844d9100" /># New Spain Fleets
 This is the repository for the Fleets of New Spain project at Lancaster University (UK) and Tec de Monterrey (Mexico).
 ## Website:
 [**The Fleets of New Spain**](https://wp.lancs.ac.uk/newspainfleets/?page_id=20&lang=en)
