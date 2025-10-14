@@ -1,1 +1,5 @@
+El Corpus GT contiene las versiones "Ground Truth" de los documentos.
+Estas son las transcripciones literales hechas por especialistas en paleografía novohispana, siguiendo los Criterios de Transcripción del proyecto.
 
+Los Corpus HTR contienen las transcripciones automáticas generadas por nuestros modelos de reconocimiento de texto manuscrito (HTR).
+El nombre del corpus y del archivo zip indica el modelo HTR que generó las transcripciones. Por ejemplo, las transcripciones incluidas en "Corpus_Encadenada_m2t4" fueron producidas por el modelo HTR Encadenada_m2t4.  
