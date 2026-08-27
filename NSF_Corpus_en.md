@@ -12,8 +12,8 @@ Most GT and HTR files exist in pairs (for example, BnF_110_02_GT -- BnF_110_02_P
 However, there may be one or more HTR files for a single GT file, should several transcriptions of the same page have been generated using different HTR models.
 
 ### File names
-The names of the .txt files follow this naming convention:
-**{Archive/Institution} _ {Fund/Collection} _ {volume/box} _ {file/reference number} _ {page} _ {transcription type}**
+The names of the .txt files follow this naming convention:  
+**{Archive/Institution} _ {Fund/Collection} _ {volume/box} _ {file/reference number} _ {page} _ {transcription type}**  
 For example:
 - AGI_CONTRATACION_5500_N2_R15_01_GT
   - refers to: Archivo General de Indias, Contratación fund, reference number 5500_N2_R15, page 01, Ground Truth transcription
@@ -51,13 +51,13 @@ This version of the Corpus includes the historical documents used for the traini
 
 >[!CAUTION]
 >When analysing this version of the Corpus using the NAOMI process, we identified misalignment issues in 158 pairs of GT-HTR files, where one of the two .txt files has more lines than the other.
->These affected 76 italica cursiva, 35 encadenada, 46 procesal and 1 redonda pairs. Upon reviewing each pair of files, the main problems identified were:
+>These affected 76 *italica cursiva*, 35 *encadenada*, 46 *procesal* and 1 *redonda* pairs. Upon reviewing each pair of files, the main problems identified were:
 >- Extra lines in the GT files.
 >The source of this problem lies in the process of exporting .txt files in Transkribus: when a transcription is exported from a document’s version history, the text of the latest version in the history is appended to the text of that version.
 >Therefore, if the GT was not the latest version – as is the case with many of our transcriptions where the GT was produced first and then one or more HTRs were run – then, when that GT is exported, the .txt file also includes the text of the latest HTR in the history.
 Each of the files was reviewed and corrected so that their lines matched.
 >- AGI_CONTRATACION_1170A_N10.
->This document contained almost 100 GT-HTR pairs with alignment errors in the text lines, affecting encadenada, cursiva and procesal. The problem arose because the HTRs were run against near-final versions of the human transcriptions that had not yet been fully proofread, meaning they often did not correspond to the final GT.
+>This document contained almost 100 GT-HTR pairs with alignment errors in the text lines, affecting *encadenada*, *cursiva* and *procesal*. The problem arose because the HTRs were run against near-final versions of the human transcriptions that had not yet been fully proofread, meaning they often did not correspond to the final GT.
 To correct the affected files, the HTRs for this document were run again, this time using the final version of the GT.
 >- Lines present in the GT but absent from the HTR.
 >This was an unusual case, exclusive to the first documents we worked on for the *Italica cursiva* model and almost always found in BnF documents.
@@ -68,7 +68,7 @@ To correct this, new baselines and polygons were added to the affected lines.
 To correct this, text was added to the GTs where necessary.
 
 
-### Corpus_May2026
+### Corpus_may2026
 >[!NOTE]
 >This is the most recent and cleaned-up version of the Corpus.
 In this version, all alignment errors identified in Corpus_Feb2026 have been corrected.  
@@ -85,5 +85,3 @@ It includes the historical documents used for training and evaluating the latest
   - 16 documents/folders, 143 pages/.txt files
 - Corpus_HTR_Redonda_m1t3
   - 20 documents/folders, 98 pages/.txt files
-
-
