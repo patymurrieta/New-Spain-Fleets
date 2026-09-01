@@ -1,5 +1,10 @@
 *Español* | [English](/NSF_Corpus/NSF_Corpus_README_en.md)
 # <img width="80" height="97" alt="logo_NSF_english" src="/img/logo_NSF_en.png"> NSF Corpus
+*Contenido*
+- [NSF_Corpus](#-nsf-corpus)
+- [Nombres de archivos](#nombres-de-archivos)
+- [Versiones del Corpus](#versiones-del-corpus)
+
 El Corpus está compuesto por archivos de texto (.txt) que contienen las transcripciones de los documentos históricos utilizados en el proyecto.
 
 El **Corpus_GT** contiene las versiones "Ground Truth" de los documentos.
@@ -11,7 +16,7 @@ El nombre de cada corpus indica el modelo HTR que generó las transcripciones. P
 La mayoría de los archivos GT y HTR existen en parejas (por ejemplo, BnF_110_02_GT -- BnF_110_02_Procesal_m3t4_HTR), pues la precisión de una transcripción HTR se evalúa comparándola con su GT.  
 Sin embargo, para un mismo archivo GT pueden existir uno o más archivos HTR, en caso de que se hayan generado varias transcripciones de una misma página usando diferentes modelos HTR.
 
-### Nombres de archivo
+### Nombres de archivos
 Los nombres de los archivos .txt siguen la nomenclatura:  
 **{Archivo/Institución} _ {Fondo/Colección} _ {volumen/caja} _ {expediente/signatura} _ {página} _ {tipo de transcripción}** 
 Por ejemplo: 
