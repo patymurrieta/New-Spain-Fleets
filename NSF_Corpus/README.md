@@ -1,4 +1,4 @@
-*Español* | [English](NSF_Corpus_en.md)
+*Español* | [English](/NSF_Corpus/NSF_Corpus_README_en.md)
 # <img width="80" height="97" alt="logo_NSF_english" src="/img/logo_NSF_en.png"> NSF Corpus
 El Corpus está compuesto por archivos de texto (.txt) que contienen las transcripciones de los documentos históricos utilizados en el proyecto.
 
