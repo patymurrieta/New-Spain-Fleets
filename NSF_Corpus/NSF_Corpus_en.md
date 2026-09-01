@@ -1,5 +1,5 @@
-[Spanish](NSF_Corpus.md) | *English*
-# NSF Corpus
+[Spanish](/NSF_Corpus/README.md) | *English*
+# <img width="80" height="97" alt="logo_NSF_english" src="/img/logo_NSF_en.png"> NSF Corpus
 The Corpus consists of text files (.txt) containing the transcriptions of the historical documents used in the project.
 
 The **Corpus_GT** contains the ‘Ground Truth’ versions of the documents.
